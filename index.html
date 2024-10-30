@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game For Kids</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <style>
+    </style>
+</head>
+
+<body>
+    <audio id="song" autoplay loop>
+        <source src="asset/song.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="soundButton">
+        <source src="asset/soundButton.mp3" type="audio/mp3" />
+    </audio>
+
+    <!-- first face -->
+
+    <div id="containerHome">
+        <div class="home-navbar">
+            <img src="asset/hi kids.png">
+            <h1 id="start" onclick="bunyi()">Start</h1>
+        </div>
+    </div>
+    <!-- end first face  -->
+
+    <!-- content -->
+    <div id="containerSelect">
+        <div class="select-navbar">
+            <img src="asset/startlogo.png">
+            <a id="select1" onclick="showRandomLi()">
+                <h1 onclick="bunyi()">
+                    Ayo!!!
+                </h1>
+            </a>
+        </div>
+    </div>
+
+    <div id="containerGameBerhitung">
+        <div id="perhitungan">
+            <!-- B1 = berhitung 1 dan seterusnya-->
+            <ul id="randomli">
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/brotosaurus.png" /></a>
+                        <p class="b1hbiru">=</p>
+                        <input type="text" placeholder="isi cuy" id="inputB1" />
+                    </div>
+
+                    <div id="containerKirim1" onclick="lanjut1()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/pterosaurus.png" /></a>
+                        <h1 class="b1horen">=</h1>
+                        <input type="text" placeholder="isi cuy" id="inputB2" />
+                    </div>
+                    <div id="containerKirim2" onclick="lanjut2()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/dilophosaurus.png" /></a>
+                        <h1 class="b1horen">=</h1>
+                        <input type="text" placeholder="isi cuy" id="inputB3" />
+                    </div>
+                    <div id="containerKirim3" onclick="lanjut3()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/trex.png" /></a>
+                        <h1 class="h1bijo">=</h1>
+                        <input type="text" placeholder="isi cuy" id="inputB4" />
+                    </div>
+
+                    <div id="containerKirim4" onclick="lanjut4()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/mosasurus.png" /></a>
+                        <h1 class="b1hbiru">=</h1>
+                        <input type="text" placeholder="isi cuy" id="inputB5" />
+                    </div>
+
+                    <div id="containerKirim4" onclick="lanjut5()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/ankylosaurus.png" /></a>
+                        <h1 class="b1horen">=</h1>
+                        <input type="text" placeholder="isi cuy" id="inputB6" />
+                    </div>
+
+                    <div id="containerKirim4" onclick="lanjut6()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/elasmosaurus.png" /></a>
+                        <h1 class="b1hbiru">=</h1>
+                        <input type="text" placeholder="isi cuy" id="inputB7" />
+                    </div>
+
+                    <div id="containerKirim4" onclick="lanjut7()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/parasaurolophus.png" /></a>
+                        <h1 class="b1horen">=</h1>
+                        <input type="text" placeholder="isi cuy" id="inputB8" />
+                    </div>
+
+                    <div id="containerKirim4" onclick="lanjut8()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/styrosaurus.png" /></a>
+                        <h1 class="h1bijo">=</h1>
+                        <input type="text" placeholder="isi cuy" id="inputB9" />
+                    </div>
+
+                    <div id="containerKirim4" onclick="lanjut9()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="b1">
+                        <a><img src="asset/spinosaurus.png" /></a>
+                        <h1 class="b1horen">=</h1>
+                        <input type="text" placeholder="isi cuy" id="inputB10" />
+                    </div>
+
+                    <div id="containerKirim4" onclick="lanjut10()">
+                        <p class="kirim">Kirim 👍</p>
+                    </div>
+                </li> 
+            </ul>
+        </div>
+
+        <div class="containerKembali" onclick="back()">
+            <p class="kembali">Kembali</p>
+        </div>
+    </div>
+
+    <div id="runing">
+        <div class="position-runing">
+            <a>
+                <h1>YEAY BENAR</h1>
+                <img src="asset/Desain-tanpa-judul-unscreen.gif" />
+            </a>
+        </div>
+        <div class="containerKembalRuning" onclick="back()">
+            <p class="kembaliRuning">Lagi?</p>
+        </div>
+    </div>
+
+    <div id="gagalRuning">
+        <div class="containerKembali-gagalRuning" onclick="back()">
+            <p class="kembali-gagalRuning">Coba Lagi Yuk!!</p>
+        </div>
+    </div>
+
+    <!-- end content -->
+</body>
+
+<script src="data.js" type="text/javascript"></script>
+
+</html>

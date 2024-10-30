@@ -1,0 +1,459 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#containerHome {
+    background-image: url(asset/_0e0d633e-0070-49cf-95e2-18358c64625f.jpeg);
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.home-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 500px;
+    min-height: 100vh;
+}
+
+#start {
+    color: #fff;
+    background-color: #ff6600;
+    font-family: "Nerko One", cursive;
+    width: 110px;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+#start:hover {
+    background-color: #bfcf2a;
+    color: #ff6600;
+    font-weight: 500;
+    transition: 0.4s;
+    box-shadow: 1px rgba(0, 0, 0, 1);
+    outline: 5px solid #243849;
+    outline-offset: 1px;
+    scale: 105%;
+    transition: all 0.3s ease-in-out;
+}
+
+#containerSelect {
+    background-image: url(asset/_c76af810-b2a7-4102-bd15-184ddea79b7f.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#select1 {
+    color: #fff;
+    background-color: #ff6600;
+    font-family: "Nerko One", cursive;
+    width: 20%;
+    height: 8%;
+    font-weight: 0px;
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    outline: 0.4px solid #243849;
+    outline-offset: 0.1px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#select1:hover {
+    scale: 105%;
+    background-color: #4feb06;
+    color: #fc7c04;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px rgba(0, 0, 0, 1);
+    outline: 4px solid #243849;
+    outline-offset: 0.3px;
+}
+
+#containerGameBerhitung {
+    background-image: url(asset/_bc938d77-7908-4fe0-86a6-7224a3f294e8.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#perhitungan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#perhitungan>li {
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#b1 {
+    height: 40px;
+    background-color: #eaeaee;
+    height: 50%;
+    width: auto;
+    font-weight: 200;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px rgba(0, 0, 0, 1);
+    outline: 5px solid #243849;
+}
+
+#b1>a {
+    scale: 90%;
+}
+
+#b1>input {
+    font-family: "Nerko One", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: x-large;
+    width: 20%;
+    height: 20%;
+    background-color: rgb(211, 228, 250);
+    color: #330202;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#b1>input:hover {
+    scale: 105%;
+    transition: all 0.3s ease-in-out;
+}
+
+#b1>.b1horen {
+    font-family: "Nerko One", cursive;
+    width: 10px;
+    font-weight: 400;
+    color: #ff6600;
+}
+
+#b1>.b1hbiru {
+    font-family: "Nerko One", cursive;
+    width: 10px;
+    font-weight: 400;
+    color: rgb(63, 132, 197);
+    font-size: xx-large;
+}
+
+#b1>.h1bijo {
+    font-family: "Nerko One", cursive;
+    width: 10px;
+    font-weight: 400;
+    color: rgb(6, 148, 25);
+    font-size: xx-large;
+}
+
+.containerKembali {
+    position: absolute;
+    bottom: 70px;
+    left: 120px;
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+    background-color: #ff6600;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.kembali {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+    cursor: pointer;
+    color: #eaeaea;
+}
+
+.containerKembali:hover {
+    background-color: yellowgreen;
+    transition: 0.4s;
+    box-shadow: 1px rgba(0, 0, 0, 1);
+    outline: 5px solid #243849;
+    outline-offset: 0.3px;
+    scale: 105%;
+    transition: all 0.3s ease-in-out;
+}
+
+.kembali:hover {
+    color: #ff6600;
+}
+
+#containerKirim1 {
+    position: absolute;
+    bottom: 70px;
+    right: 120px;
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+    background-color: #ff6600;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#containerKirim2 {
+    position: absolute;
+    bottom: 70px;
+    right: 120px;
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+    background-color: #ff6600;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#containerKirim3 {
+    position: absolute;
+    bottom: 70px;
+    right: 120px;
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+    background-color: #ff6600;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#containerKirim4 {
+    position: absolute;
+    bottom: 70px;
+    right: 120px;
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+    background-color: #ff6600;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#randomli {
+    list-style-type: none;
+}
+
+.kirim {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+    cursor: pointer;
+    color: #eaeaea;
+}
+
+#containerKirim1:hover {
+    background-color: yellowgreen;
+    transition: 0.4s;
+    box-shadow: 1px rgba(0, 0, 0, 1);
+    outline: 5px solid #243849;
+    outline-offset: 0.3px;
+    scale: 105%;
+    transition: all 0.5s ease-in-out;
+}
+
+#containerKirim2:hover {
+    background-color: yellowgreen;
+    transition: 0.4s;
+    box-shadow: 1px rgba(0, 0, 0, 1);
+    outline: 5px solid #243849;
+    outline-offset: 0.3px;
+    scale: 105%;
+    transition: all 0.5s ease-in-out;
+}
+
+#containerKirim3:hover {
+    background-color: yellowgreen;
+    transition: 0.4s;
+    box-shadow: 1px rgba(0, 0, 0, 1);
+    outline: 5px solid #243849;
+    outline-offset: 0.3px;
+    scale: 105%;
+    transition: all 0.5s ease-in-out;
+}
+
+#containerKirim4:hover {
+    background-color: yellowgreen;
+    transition: 0.4s;
+    box-shadow: 1px rgba(0, 0, 0, 1);
+    outline: 5px solid #243849;
+    outline-offset: 0.3px;
+    scale: 105%;
+    transition: all 0.5s ease-in-out;
+}
+
+.kirim:hover {
+    color: #ff6600;
+}
+
+#runing {
+    background-image: url(asset/_c76af810-b2a7-4102-bd15-184ddea79b7f.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.position-runing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.position-runing>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.position-runing>a>h1 {
+    color: #04cafc;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #a3e90d;
+    -webkit-text-stroke: 2px #4d28e3;
+    font-family: "Nerko One", cursive;
+    font-weight: 300;
+    font-size: 400%;
+    font-style: normal;
+}
+
+.containerKembalRuning {
+    position: absolute;
+    bottom: 10%;
+    right: 45%;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: #ff6600;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.containerKembalRuning:hover {
+    outline: 0.2rem solid #243849;
+    transition: all 0.3s ease-in-out;
+    background-color: skyblue;
+    color: #eb7906;
+}
+
+.kembaliRuning {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+    cursor: pointer;
+    color: #eaeaea;
+}
+
+.kembaliRuning:hover {
+    color: #eb7906;
+}
+
+#gagalRuning {
+    background-image: url(asset/gagal\ running.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerKembali-gagalRuning {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    border-radius: 10px;
+    background-color: #ff6600;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.kembali-gagalRuning {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+    cursor: pointer;
+    color: #eaeaea;
+    padding: 10px;
+}
+
+.kembali-gagalRuning:hover{
+    color: #fb8106;
+    background-color: #65bef9;
+    border-radius: 10px;
+    outline: 2px solid #fb8106;
+}
